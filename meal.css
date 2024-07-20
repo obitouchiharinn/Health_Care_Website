@@ -1,0 +1,99 @@
+/* styles.css */
+
+#logo{
+        
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: chocolate;
+    margin: 10px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-left: 30px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+.content{
+    font-family: "Zeyada", cursive;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 60px;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 0%;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    margin-left:250px;
+    margin-right:250px;
+    box-shadow: 0 0 10px #383838;
+    border-radius: 10px;
+    
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.meal-plan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.meal-item {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.meal-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}

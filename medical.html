@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <title>Medical Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="w.html"><img src="left.svg" alt="" id="arrow"></a>
+        <h1>HealthScale</h1>
+    </header>
+    <main>
+        <section id="symptomForm">
+            <h2>Enter Your Symptoms</h2>
+            <input type="text" id="symptomsInput" placeholder="Enter your symptoms">
+            <button onclick="analyzeSymptoms()">Analyze</button>
+        </section>
+        <section id="prescriptionSection" style="display: none;">
+            <h2>Possible Prescription:</h2>
+            <p id="prescriptionText"></p>
+            <button onclick="bookAppointment()">Book Appointment</button>
+        </section>
+    </main>
+   
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
